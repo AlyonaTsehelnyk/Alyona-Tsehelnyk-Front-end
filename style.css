@@ -32,7 +32,7 @@ p {
   border-radius: 4px;
   font-size: 18px !important;
   line-height: 1.5;
-  text-align: left !important;
+  text-align: left;
 }
 
 .navigation-links {
@@ -91,4 +91,24 @@ p {
 }
 .mb-3 {
   text-align: left;
+}
+@media (max-width: 430px) {
+  .img-fluid {
+    display: none;
+  }
+  h1 {
+    font-size: 56px !important;
+  }
+
+  h2 {
+    font-size: 48px;
+  }
+  p {
+    text-align: center;
+  }
+  .mb-3,
+  .mt-3 {
+    text-align: center;
+  }
+  .contact-me {font-size: 32px!important;
 }

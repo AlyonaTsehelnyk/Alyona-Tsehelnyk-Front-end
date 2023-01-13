@@ -110,5 +110,11 @@ p {
   .mt-3 {
     text-align: center;
   }
-  .contact-me {font-size: 32px!important;
+  .contact-me {
+    font-size: 32px !important;
+  }
+  .email-link {
+    font-size: 20px !important;
+    text-align: center;
+  }
 }
